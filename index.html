@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DANIEL / VOLT — GPP Mk VII workcut</title>
+  <meta name="description" content="DANIEL / VOLT. 2:13. 11 shots. grok-imagine-video-1.5. Native audio." />
+  <meta property="og:title" content="DANIEL / VOLT" />
+  <meta property="og:description" content="GPP Mk VII workcut · 2:13 · 11 shots · native audio" />
+  <meta property="og:image" content="poster.jpg" />
+  <meta property="og:type" content="video.other" />
+  <link rel="icon" href="poster.jpg" />
+  <style>
+    :root {
+      --bg: #07080a;
+      --ink: #e8e2d6;
+      --mute: #8a8478;
+      --line: rgba(232,226,214,.14);
+      --volt: #d4a017;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--bg); color: var(--ink); }
+    body {
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      min-height: 100dvh;
+      background:
+        radial-gradient(1200px 600px at 50% -10%, rgba(212,160,23,.08), transparent 55%),
+        radial-gradient(800px 500px at 80% 110%, rgba(110,168,201,.06), transparent 50%),
+        var(--bg);
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 28px 20px 72px; }
+    header {
+      display: flex; justify-content: space-between; align-items: baseline;
+      gap: 16px; margin-bottom: 22px; border-bottom: 1px solid var(--line); padding-bottom: 16px;
+    }
+    .mark { font-size: 11px; letter-spacing: .28em; text-transform: uppercase; color: var(--volt); }
+    h1 { font-weight: 500; font-size: clamp(28px, 5vw, 52px); letter-spacing: .04em; margin: 8px 0 0; }
+    .meta {
+      font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; letter-spacing: .16em;
+      text-transform: uppercase; color: var(--mute); text-align: right; line-height: 1.7;
+    }
+    .stage {
+      position: relative; background: #000; border: 1px solid var(--line); overflow: hidden;
+      box-shadow: 0 30px 80px rgba(0,0,0,.45);
+    }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
+    .bar {
+      display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+      margin-top: 18px; font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 12px; color: var(--mute); letter-spacing: .08em;
+    }
+    a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--volt); }
+    a:hover { color: var(--volt); }
+    .shots {
+      margin-top: 36px; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 8px 18px; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; color: var(--mute);
+    }
+    .shots b { color: var(--ink); font-weight: 500; }
+    .skip { color: #c45c4a; }
+    footer {
+      margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
+      font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px;
+      letter-spacing: .14em; text-transform: uppercase; color: var(--mute);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <div class="mark">GPP Mk VII · FixYourFilm</div>
+        <h1>DANIEL / VOLT</h1>
+      </div>
+      <div class="meta">
+        workcut · 2:13<br />
+        11 shots · 08 skipped<br />
+        grok-imagine-video-1.5<br />
+        native audio · 720p
+      </div>
+    </header>
+    <div class="stage">
+      <video controls playsinline preload="metadata" poster="poster.jpg">
+        <source src="DANIEL_VOLT.mp4" type="video/mp4" />
+        Je browser speelt deze mp4 niet. <a href="DANIEL_VOLT.mp4">Download de film</a>.
+      </video>
+    </div>
+    <div class="bar">
+      <span>Gelderland rain · charcoal coat · split knuckle</span>
+      <a href="DANIEL_VOLT.mp4" download>Download mp4</a>
+    </div>
+    <div class="shots">
+      <div><b>01</b> palm / volt</div>
+      <div><b>02</b> don’t come in</div>
+      <div><b>03</b> mara wrist</div>
+      <div><b>04</b> door</div>
+      <div><b>05</b> carpark silent</div>
+      <div><b>06</b> bumper</div>
+      <div><b>07</b> kneel boy</div>
+      <div class="skip"><b>08</b> skipped — IP</div>
+      <div><b>09</b> mara phone</div>
+      <div><b>10</b> not hiding</div>
+      <div><b>11</b> palm silent</div>
+      <div><b>12</b> walk-off</div>
+    </div>
+    <footer>FilmForge · engine locked · no Veo</footer>
+  </div>
+</body>
+</html>
