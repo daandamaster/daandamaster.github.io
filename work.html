@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Work — UNIT 01 / DANIEL VOLT — FixyourFilm</title>
+  <meta name="description" content="Public 3-unit last-frame chain. grok-imagine-video-1.5. Same face. Native audio." />
+  <meta property="og:title" content="UNIT 01 — DANIEL / VOLT" />
+  <meta property="og:description" content="still → I2V → last-frame. 3 shots. Imagine 1.5." />
+  <meta property="og:image" content="poster.jpg" />
+  <link rel="icon" href="poster.jpg" />
+  <style>
+    :root {
+      --bg: #07080a;
+      --ink: #e8e2d6;
+      --mute: #8a8478;
+      --line: rgba(232,226,214,.14);
+      --volt: #d4a017;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--bg); color: var(--ink); }
+    body {
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      min-height: 100dvh;
+      background:
+        radial-gradient(1200px 600px at 50% -10%, rgba(212,160,23,.08), transparent 55%),
+        var(--bg);
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 28px 20px 72px; }
+    header {
+      display: flex; justify-content: space-between; align-items: baseline;
+      gap: 16px; margin-bottom: 22px; border-bottom: 1px solid var(--line); padding-bottom: 16px;
+    }
+    .mark { font-size: 11px; letter-spacing: .28em; text-transform: uppercase; color: var(--volt); }
+    h1 { font-weight: 500; font-size: clamp(28px, 5vw, 52px); letter-spacing: .04em; margin: 8px 0 0; }
+    .meta {
+      font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; letter-spacing: .16em;
+      text-transform: uppercase; color: var(--mute); text-align: right; line-height: 1.7;
+    }
+    .stage {
+      background: #000; border: 1px solid var(--line); overflow: hidden;
+      box-shadow: 0 30px 80px rgba(0,0,0,.45);
+    }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
+    .bar {
+      display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+      margin-top: 18px; font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 12px; color: var(--mute); letter-spacing: .08em;
+    }
+    a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--volt); }
+    a:hover { color: var(--volt); }
+    .units {
+      margin-top: 40px; display: grid; gap: 16px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 800px) { .units { grid-template-columns: 1fr; } }
+    .unit {
+      border: 1px solid var(--line); padding: 18px 16px;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+    }
+    .unit b {
+      display: block; font-size: 11px; letter-spacing: .2em; text-transform: uppercase;
+      color: var(--volt); margin-bottom: 8px; font-weight: 500;
+    }
+    .unit h2 { font-family: Georgia, serif; font-size: 22px; font-weight: 500; margin: 0 0 8px; }
+    .unit p { margin: 0; color: var(--mute); font-size: 13px; line-height: 1.55; }
+    .law {
+      margin-top: 36px; padding: 18px 16px; border: 1px solid var(--line);
+      font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px;
+      color: var(--mute); line-height: 1.7;
+    }
+    .law strong { color: var(--ink); font-weight: 500; }
+    footer {
+      margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
+      font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px;
+      letter-spacing: .14em; text-transform: uppercase; color: var(--mute);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <div class="mark">FixyourFilm · /work · Mk VII</div>
+        <h1>UNIT 01 / VOLT</h1>
+      </div>
+      <div class="meta">
+        3-unit chain<br />
+        still → I2V → last-frame<br />
+        grok-imagine-video-1.5<br />
+        native audio · 720p
+      </div>
+    </header>
+    <div class="stage">
+      <video controls playsinline preload="metadata" poster="poster.jpg">
+        <source src="DANIEL_VOLT.mp4" type="video/mp4" />
+        Je browser speelt deze mp4 niet. <a href="DANIEL_VOLT.mp4">Download</a>.
+      </video>
+    </div>
+    <div class="bar">
+      <span>Same face · charcoal coat · Gelderland rain · split knuckle</span>
+      <a href="./" >Full workcut 2:13</a>
+    </div>
+    <div class="units">
+      <div class="unit">
+        <b>01 · still lock</b>
+        <h2>palm / volt</h2>
+        <p>Face + wardrobe plate. Wet charcoal coat, palm lit from inside. This still is the identity lock for the chain.</p>
+      </div>
+      <div class="unit">
+        <b>02 · I2V</b>
+        <h2>don’t come in</h2>
+        <p>Imagine 1.5 from the locked still. One verb. Native room + hits. 12s raw, pad to 15.000s, 1280×720, 24fps.</p>
+      </div>
+      <div class="unit">
+        <b>03 · last-frame</b>
+        <h2>mara wrist</h2>
+        <p>First frame of 03 is the last frame of 02. Inherit face, wardrobe, light side, eyeline, room tone. No new face.</p>
+      </div>
+    </div>
+    <div class="law">
+      <strong>Walk contract.</strong>
+      Engine locked to grok-imagine-video-1.5. Method: still_then_clip_last_frame.
+      Shots 01–03 run R2V from FACE + WARDROBE plates, then I2V off last-frame.
+      Master: ffmpeg concat + loudnorm I=−16 TP=−1.5 LRA=11.
+      Face or wardrobe drift is a block. This page is the public proof — not a lookbook.
+    </div>
+    <footer>FilmForge · engine locked · no Veo · no FAL</footer>
+  </div>
+</body>
+</html>
